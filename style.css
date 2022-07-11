@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.header__n__sell {
+  width: 100%;
+  background-image: url(img/noise.jpg);
+  background-attachment: fixed;
+}
+.header__n__sell .rainbow__bgi {
+  background-image: url(img/back_img.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+  background-position: left center;
+}
+.header__n__sell .header {
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 20px;
+}
+.header__n__sell .header .header__btn {
+  width: 225px;
+  height: 52px;
+  background: #000000;
+  border: 0;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.header__n__sell .sell__txt {
+  font-family: "Space grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 120%;
+  letter-spacing: -0.035em;
+  padding-top: 75px;
+}
+.header__n__sell .crystal__nft__line {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  align-items: flex-end;
+}
+.header__n__sell .crystal__nft__line .nft__line {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.header__n__sell .crystal__nft__line .nft__line .nft__txt {
+  font-family: "Space grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 120%;
+  letter-spacing: -0.035em;
+}
+.header__n__sell .join__arrow {
+  text-align: right;
+  padding-bottom: 200px;
+}
+.header__n__sell .join__arrow .join__txt {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.header__n__sell .ul__stars {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 64px;
+  font-family: "Space grotesk", sans-serif;
+  font-weight: 700;
+  list-style: none;
+  padding-bottom: 60px;
+}
+.header__n__sell .nft__txt__bottom {
+  text-align: center;
+  font-family: "Sora";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150%;
+  margin: 0 auto;
+  padding-bottom: 130px;
+}
+
+.yoga {
+  width: 100%;
+  background-color: #000000;
+}
+.yoga .yoga__wrapper {
+  margin: 0 auto;
+  padding: 128px 20px 123px 20px;
+  max-width: 1008px;
+  text-align: center;
+}
+.yoga .yoga__txt {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.yoga .yoga__txt .yoga__svg1 {
+  background-image: url(img/yoga-svg1.1.svg), url(img/yoga-svg1.1.1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.offer {
+  width: 100%;
+}
+.offer .offer__txt__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 120px 0 110px 0;
+}
+.offer .offer__txt__top .offer__txt__we {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+}
+.offer .offer__txt__top .offer__txt__our {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+}
+.offer .offer__txt__per {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 140%;
+  padding-bottom: 69px;
+}
+.offer figcaption {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+}
+.offer cite {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.offer .first__line {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 47px;
+}
+.offer .second__line {
+  margin: 0 auto;
+  width: 400px;
+  padding-bottom: 47px;
+}
+.offer .third__line {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.offer .offer__btn {
+  padding: 75px 0 180px 0;
+}
+.offer .offer__btn .offer__link {
+  text-decoration: none;
+}
+.offer .offer__btn .offer__btn__orange {
+  display: block;
+  margin: 0 auto;
+  width: 281px;
+  height: 68px;
+  background: #F46E35;
+  border: 0;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.repeat__lines {
+  position: relative;
+  height: 100px;
+  background-color: #010101;
+}
+.repeat__lines .rep__line {
+  position: absolute;
+  bottom: 20px;
+  object-fit: none;
+}
+@media (min-width: 1140px) {
+  .repeat__lines .rep__line .rep__line {
+    object-fit: cover;
+  }
+}
+.repeat__lines .rep__line1 {
+  position: absolute;
+  bottom: 0px;
+  object-fit: none;
+}
+@media (min-width: 1140px) {
+  .repeat__lines .rep__line1 .rep__line1 {
+    object-fit: cover;
+  }
+}
+.repeat__lines .rep__line2 {
+  position: absolute;
+  bottom: 40px;
+  object-fit: none;
+}
+@media (min-width: 1141px) {
+  .repeat__lines .rep__line2 .rep__line2 {
+    object-fit: cover;
+  }
+}
+
+.service {
+  width: 100%;
+  background-color: #010101;
+}
+.service .service__txt {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 233px;
+  padding-bottom: 112px;
+}
+.service .txt__box {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.service .service__card__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.service .service__card__box .card {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service .service__card__box .txt__box {
+  text-align: center;
+  padding: 50px 0 120px 0;
+}
+.service .we__handle {
+  text-align: right;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 140%;
+  color: #EBEBEB;
+  opacity: 0.5;
+  padding-bottom: 140px;
+}
+.service .about__txt {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  padding-bottom: 70px;
+}
+.service .video__block {
+  position: relative;
+  padding-bottom: 50px;
+}
+.service .video__block .nfton__txt {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+  color: #FFFFFF;
+  max-width: 630px;
+}
+.service .video__block .video__svg1 {
+  position: absolute;
+  top: 10%;
+}
+.service .video__block .video__svg2 {
+  position: absolute;
+  right: 0px;
+  top: 55%;
+}
+.service .video__block .year__txt {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+  color: #FFFFFF;
+  max-width: 630px;
+}
+.service .video__block #crystal__video {
+  width: 100%;
+}
+.service .service__btn {
+  padding: 100px 0 130px 0;
+}
+.service .service__btn .service__link {
+  text-decoration: none;
+}
+.service .service__btn .service__btn__orange {
+  display: block;
+  margin: 0 auto;
+  width: 281px;
+  height: 68px;
+  background: #F46E35;
+  border: 0;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+.partner {
+  width: 100%;
+  background-image: url(img/noise.jpg);
+}
+.partner .partner__wrapper {
+  background-color: #F46E35;
+  mix-blend-mode: multiply;
+}
+.partner .partner__title {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 140%;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 110px 0 30px 0;
+}
+.partner .partner__subtitle {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 150%;
+  color: #FFFFFF;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 844px;
+}
+.partner .partner__frame__blue {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(img/Frame_btm_orange.jpg);
+  background-repeat: no-repeat;
+  max-width: 818px;
+  height: 246px;
+  padding-bottom: 140px;
+}
+.partner .partner__frame__blue .partner__btn {
+  width: 378px;
+  height: 68px;
+  background: #000000;
+  border: 0;
+  font-family: "Space Grotesk";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.partner .partner__frame__blue .partner__btn .partner__link {
+  text-decoration: none;
+}
+.partner .partner__btm__txt {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 724px;
+}
+.partner .partner__btm__txt .span_btm {
+  color: #FFFFFF;
+}
+.partner .footer {
+  height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+.partner .footer .privacy__policy {
+  text-decoration: none;
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #000000;
+}/*# sourceMappingURL=style.css.map */
