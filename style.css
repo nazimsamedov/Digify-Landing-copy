@@ -208,39 +208,28 @@
   color: #FFFFFF;
 }
 
-.repeat__lines {
-  position: relative;
-  height: 100px;
+.rep__lines {
+  overflow: hidden;
+}
+.rep__lines .marquee-infinite div {
   background-color: #010101;
+  display: flex;
+  width: 200%;
+  animation: marquee-infinite 15s linear infinite;
 }
-.repeat__lines .rep__line {
-  position: absolute;
-  bottom: 20px;
-  object-fit: none;
+.rep__lines .marquee-infinite div .marquee-infinite span {
+  width: 100%;
+  display: flex;
 }
-@media (min-width: 1140px) {
-  .repeat__lines .rep__line .rep__line {
-    object-fit: cover;
+.rep__lines .marquee-infinite div .marquee-infinite img {
+  width: 100%;
+}
+@keyframes marquee-infinite {
+  0% {
+    transform: translateX(0%);
   }
-}
-.repeat__lines .rep__line1 {
-  position: absolute;
-  bottom: 0px;
-  object-fit: none;
-}
-@media (min-width: 1140px) {
-  .repeat__lines .rep__line1 .rep__line1 {
-    object-fit: cover;
-  }
-}
-.repeat__lines .rep__line2 {
-  position: absolute;
-  bottom: 40px;
-  object-fit: none;
-}
-@media (min-width: 1141px) {
-  .repeat__lines .rep__line2 .rep__line2 {
-    object-fit: cover;
+  100% {
+    transform: translateX(-50%);
   }
 }
 
@@ -424,9 +413,6 @@
   display: block;
   margin: 0 auto;
   max-width: 724px;
-}
-.partner .partner__btm__txt .span_btm {
-  color: #FFFFFF;
 }
 .partner .footer {
   height: 74px;
