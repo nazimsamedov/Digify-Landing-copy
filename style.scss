@@ -48,8 +48,8 @@ $width_content: 1300px;
         font-family: 'Space grotesk', sans-serif;
         font-weight: 500;
         font-size: 120px;
-        // font-size: 8vw;
-        line-height: 120%;
+        font-size: 9vw;
+        // line-height: 120%;
         letter-spacing: -0.035em;
         padding-top: 75px;
     }
@@ -64,19 +64,26 @@ $width_content: 1300px;
             display: flex;
             flex-grow: 1;
             flex-wrap: nowrap;
-            // align-items: center;
-            justify-content: space-around;
+            align-items: center;
+            justify-content: space-between;
+
+            .nft__wrapper {
+                min-width: 50%;
+            }
 
             .nft__txt {
                 font-family: 'Space grotesk', sans-serif;
                 font-weight: 500;
-                font-size: 120px;
-                // font-size: 8vw;
+                // font-size: 120px;
+                font-size: 9vw;
                 line-height: 120%;
                 letter-spacing: -0.035em;
+                text-align: center;
             }
 
-            //..сделать адаптивный размер полоски!!!
+            .line7 {
+                max-width: 100%;
+            }
         }
     }
 
